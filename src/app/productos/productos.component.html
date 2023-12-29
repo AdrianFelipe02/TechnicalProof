@@ -6,7 +6,7 @@
       <div class="col-md-6">    
         <div class="form">
           <mat-icon class="search">search</mat-icon>
-          <input type="text" class="form-input" placeholder="Buscar por titulo..." [(ngModel)]="searchTerm">
+          <input type="text" [(ngModel)]="searchTerm" class="form-input" placeholder="Buscar por titulo..." (input)="onSearchChange(searchTerm)">
         </div>                
       </div>              
     </div>

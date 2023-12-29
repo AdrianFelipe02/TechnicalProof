@@ -23,6 +23,10 @@ export class ProductosComponent {
     this.getProductos();
   }
 
+  onSearchChange(searchValue: string): void {
+    this.searchTerm = searchValue;
+  }
+
   getProductos() {
     this.productService.getProducts(this.limit, this.sort).subscribe(data => {
       this.listProducts = data;
