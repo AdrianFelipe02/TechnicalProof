@@ -1,0 +1,45 @@
+.center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.form{
+
+    position: relative;
+}
+
+.form .search{
+
+    position: absolute;
+    top:20px;
+    left: 20px;
+    color: #000000;
+
+}
+
+.form span{
+
+    position: absolute;
+    right: 17px;
+    top: 13px;
+    padding: 1px;
+    border-left: 1px solid #9c9c9c; /* #d1d5db */
+
+}
+
+.left-pan{
+    padding-left: 7px;
+}
+
+.left-pan mat-icon{
+   
+   padding-left: 3px;
+}
+
+.form-input{
+    height: 55px;
+    text-indent: 33px;
+    border-radius: 10px;
+    background-color: rgb(219, 228, 236);
+}
